@@ -15,4 +15,6 @@ $(function() {
 	$("#right-well").children().css({"color":"orange"});
 	// O segundo elemeto pula:
 	$(".target:nth-child(2)").addClass("animated bounce");
+	// Selecionando todos os elementos:
+	$(".target:even").addClass("animated shake");
 });

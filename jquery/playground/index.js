@@ -5,4 +5,6 @@ $(function() {
 	$("#target1").prop("disabled", true);
 	// removendo elementos 
 	$("#target4").remove();
+	// Move o elemento
+	$("#target2").appendTo("#right-well");
 });

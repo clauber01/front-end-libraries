@@ -7,4 +7,6 @@ $(function() {
 	$("#target4").remove();
 	// Move o elemento
 	$("#target2").appendTo("#right-well");
+	// Faz a cópia de um elemento:
+	$("#target5").clone().appendTo("#left-well");
 });

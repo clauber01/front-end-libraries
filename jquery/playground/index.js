@@ -4,5 +4,5 @@ $(function() {
 	// Desativa o botão:
 	$("#target1").prop("disabled", true);
 	// removendo elementos 
-	$("#targe").remove();
+	$("#target4").remove();
 });

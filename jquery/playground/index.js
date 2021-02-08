@@ -13,5 +13,6 @@ $(function() {
 	$("#target1").parent().css({"background":"red"});
 	// altera a cor de todos o filhos:
 	$("#right-well").children().css({"color":"orange"});
-
+	// O segundo elemeto pula:
+	$(".target:nth-child(2)").addClass("animated bounce");
 });

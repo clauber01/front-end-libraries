@@ -4,4 +4,6 @@ $(function() {
 	$("button").addClass("animated");
 	$(".btn").addClass("shake");
 	$("#target1").addClass("btn-primary");
+	// Remove a class btn-default de todoso os elementos button:
+	$("button").removeClass("btn-default");
 });

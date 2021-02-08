@@ -17,4 +17,6 @@ $(function() {
 	$(".target:nth-child(2)").addClass("animated bounce");
 	// Selecionando todos os elementos:
 	$(".target:even").addClass("animated shake");
+	// Derrubando o Playground:
+	$("body").addClass("animated hinge");
 });

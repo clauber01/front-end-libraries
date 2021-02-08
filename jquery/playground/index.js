@@ -9,6 +9,9 @@ $(function() {
 	$("#target2").appendTo("#right-well");
 	// Faz a cópia de um elemento:
 	$("#target5").clone().appendTo("#left-well");
-	// Alterado com de fundo do pai do elemento com id #target1:
+	// Altera a cor de fundo do pai do elemento com id #target1:
 	$("#target1").parent().css({"background":"red"});
+	// altera a cor de todos o filhos:
+	$("#right-well").children().css({"color":"orange"});
+
 });
